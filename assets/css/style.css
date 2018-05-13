@@ -1,0 +1,61 @@
+body{ 
+    background-image: url(https://nefchronicles.files.wordpress.com/2015/08/siege-of-gaul.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: 'Yatra One', cursive;
+}
+  #container{
+    padding: 30px 40px;
+    width: 400px;
+    margin: auto;
+    box-sizing: border-box;
+    min-height: 80%;
+    background: #F9E8D6;
+  }
+
+  #game{
+    position: relative;
+    top:20%;
+  }
+  button{
+    display:block;
+    width:200px;
+    height:75px;
+    margin: auto;
+    border:none;
+    cursor: pointer;
+    background: #66023C;
+    font-size: 30px;
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color:black;
+  }
+ /*  h2{
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    overflow: auto;
+    width:300px;
+   } */
+
+  #quiz-area {
+    margin: auto;
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+  }
+  input{
+      font-size: 24px;
+  }
+  img {
+      margin-left: 50px;
+  }
+  
