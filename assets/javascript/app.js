@@ -145,7 +145,7 @@ $(document).ready(function () {
 
             $("#game h2").css("display", "none");
             form.html("<h4>Et Factum Est</h4>");
-            form.append("<h5>responsum verum: " + this.correct + "</h5>");
+            form.append("<h5>recta responsum: " + this.correct + "</h5>");
             form.append("<h5>falsum responsum: " + this.incorrect + "</h5>");
             form.append("<h5>nullum responsum: " + (questions.length - (this.incorrect + this.correct)) + "</h5>");
 
